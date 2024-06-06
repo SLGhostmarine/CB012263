@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>City Gourmet Catering and Culinary Solutions</title>
+
+    <!-- font awesome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom stylesheet link-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Js part for the Map-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+
+</head>
+
+
+<!--header section starts-->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <!--logo image link-->
+
+    <img class="logo" src="images/Logo.png" alt="sitelogo"><span>.</span></a>
+
+    <nav class="navbar">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="catering.html">Catering</a>
+        <a href="recipes.html">Recipes</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+       
+</div>
+</header>
+
+<!--header section ends-->
+
+<body>
+
+      <!-- home section starts-->
+
+  <section class="home" id="home">
+
+    <div class="content">
+        <h3>Experience the Artistry of Local Flavor</h3>
+        <span><b>Local cuisine done right</b></span>
+        <p><b>City Gourmet Catering and Culinary Solutions is a premier Chicago-based company dedicated to delivering top-tier catering services, culinary consultancy, and immersive culinary experiences, all crafted with a commitment to using the finest locally sourced ingredients.</b></p>
+        <a href="catering.html" class="btn">shop now</a>
+    </div>
+
+ </section>
+
+<!-- home section ends-->
+
+<!--about section starts-->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us.</h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pellhI2InmM?si=n_1RKlHOplsrRVjF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Video that I created and edited through capcut and which then I uploaded to YouTube-->
+            <h3>Crafting Memories Through Exceptional Cuisine</h3>
+        </div>
+
+        <div class="content">
+            <h3> Why choose us you ask?</h3>
+            <p>Customers should pick City Gourmet Catering and Culinary Solutions because we are culinary craftsmen dedicated to providing unmatched perfection, not just a catering business. </p>
+            <a href="about.html" class="btn">learn more</a>
+         
+
+        </div>
+    </div>
+</section>
+
+<!--about section ends-->
+
+<!-- contact section starts-->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"> <span>contact</span> us.</h1>
+
+   <div class="row">
+
+    <form action="">
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="number" class="box">
+        <textarea name="" class="box" placeholder="message" id="" cols="" rows="10">
+        </textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+    <div class="image">
+        <img src="images/freepik-export-20240604160723Hgsb.jpeg" alt="food"> <!-- image link - https://www.freepik.com/free-photo/top-view-table-full-delicious-food-composition_19672842.htm#fromView=search&page=1&position=1&uuid=eed32f5f-752b-422c-8026-ed38a160adc9-->
+
+    </div>
+
+   </div>
+
+
+</section>
+
+<!--contact section ends-->
+<!-- Map-->
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="main.js"></script>
+
+<!--Footer section starts-->
+
+<footer>
+    <div class="footerContainer">
+        <div class="socialicons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+            </ul>
+          </div>
+         
+    </div>
+    <div class="footerbottom">
+        <p>Copyright and copy;2024 Desinged by <span class="designer">T.D.C.R.Perera C.B.012263</span> </p>
+      </div>
+</footer>
+
+<!--Footer section ends-->
+</body>
+</html>
